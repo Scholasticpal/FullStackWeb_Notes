@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>onLoad</title>
+<!-- we put css on the top to get it loaded first, in this line by line interpreter.-->
+    <link rel='stylesheet' href='main.css'> 
+</head>
+<!-- onload is an event that is triggered when the page is loaded
+"Hello" is not allowed, we use 'Hello' here as outer quotations may be misinterpreted
+<body onload="alert('Hello');"> //inline JS is not recommended -->
+<body>
+    <h1>Hello</h1>
+
+<!--
+    Internal JS
+    <script type="text/javascript">
+        alert('Hello');
+    </script>-->
+
+<!-- we put the javascript in the end as the function calls made on html elements wont work,
+     if the interpreter hasn't gone through them before -->
+<!-- External JS -->
+<script src="onload.js" charset="utf-8"></script>
+</body>
+</html>
