@@ -1,3 +1,5 @@
+/*
+DOM Properties and Methods
 In HTML,
 
 Our objects inside the DOM can have properties and methods.
@@ -28,3 +30,4 @@ Methods:
 
 NOTE: Difference between methods and functions is that methods are functions that an object can perform.
 
+*/
