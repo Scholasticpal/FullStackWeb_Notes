@@ -20,3 +20,4 @@ setAttribute():
         In above example,
         document.querySelector("a").setAttribute("href", "www.yahoo.com"); 
         //changes the href attribute value to "www.yahoo.com"
+*/
